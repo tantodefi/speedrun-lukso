@@ -1,3 +1,14 @@
+# SPEEDRUN-LUKSO
+
+Learn how to build with LUKSO and ERC725 Account Universal Profiles
+
+## TODOS
+- Add lukso logo + UP logo to /packages/nextjs/public/ + colour hexcodes to theme in /packages/nextjs/tailwind.config.js
+- create a "create-UP" button component that will get the address of the connected wallet and use that as the EOA see lukso-playground/create-profile/create-up.js
+- create a component that will conditionally render if the connected profile isUP() and display the metadata associated with the UP; see lukso-playground/metadata-detection/profile-check.js + extract-profile-data.js and fetch-json-data.js
+- create a button component that will send LYXt; see lukso-playground/transfer-lyx/regular-transaction.js
+- create an input + dropdown + button component that will allow user to enter amount of token to send, select from dropdown a list of available tokens in UPwallet and button that will send token; see lukso-playground/transfer-token/regular-tranasaction.js + 01-fetch-owned-assets.js and 02-fetch-asset-data.js
+
 # 🏗 Scaffold-ETH 2
 
 <h4 align="center">

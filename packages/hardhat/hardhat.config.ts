@@ -122,6 +122,13 @@ const config: HardhatUserConfig = {
       url: "https://rpc.scroll.io",
       accounts: [deployerPrivateKey],
     },
+    luksoTestnet: {
+      url: 'https://rpc.testnet.lukso.gateway.fm',
+      accounts: [deployerPrivateKey],
+    },
+    lukso: {
+      url: 'https://rpc.lukso.gateway.fm',
+      accounts: [deployerPrivateKey],
   },
   verify: {
     etherscan: {
